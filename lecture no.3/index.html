@@ -7,31 +7,44 @@
     <title>Table code practice Document</title>
 </head>
 <body>
-    <form>
-     <h1>Student Form</h1>
-    <label>Enter Your Name</label>
-    <input type="text" placeholder="name">
-    <br>
-    <lable>Enter your age</lable>
-    <input type="number" placeholder="age">
-    <br>
-    <label>DOB</label>
-    <input type="date" placeholder="DOB"><br>
-    <label>About you</label>
-    <br>
-    <textarea> cols= "100" rows= "6" placeholder="About you"</textarea><br>
-     <lable>The course you want to select</lable><br>
-     <input type="checkbox" value="programming">programming <br>
-     <input type="checkbox" value="computers">computers <br>
-     <input type="checkbox" value="gaming">gaming <br>
-     <input type="checkbox" value="app development">app development <br>
-     <label> Duration</label><br>
-    <input type="radio" value="6 month" name="abc">6 month <br>
-    <input type="radio" value="3 month" name="abc">3 month <br>
-    <label> Prefered Timing</label>
-    <input type="time"><br>
-    <input type="submit" value="submit">
-    <input type="reset" value="reset">
-    </form>
+    <h1>Student Form</h1>
+    <div style="border:1px solid black; width: 1000px;">
+    <table style="border-collapse:collapse;width: 1000px;">
+    <tr>
+   <td><label>Enter Your Name</label></td> 
+   <td><input type="text" placeholder="name" width="98%"></td>
+    </tr>
+    <tr>
+       <td><lable>Enter your age</lable></td>
+        <td><input type="number" placeholder="age"></td>
+    </tr>
+    <tr>
+   <td><label>DOB</label></td>
+   <td><input type="date" placeholder="DOB"></td>
+    </tr>
+     <tr>
+       <td><label>About you</label></td>
+        <td><textarea> cols= "100" rows= "6" placeholder="About you"</textarea></td>
+    </tr>
+    <tr>
+        <td><lable>The course you want to select</lable></td>
+        <td><input type="checkbox" value="programming">programming</td>
+        <td><input type="checkbox" value="computers">computers</td>
+        <td><input type="checkbox" value="gaming">gaming </td>
+        <td><input type="checkbox" value="app development">app development </td>
+    </tr>
+    <tr>
+        <td><label> Duration</label></td>
+        <td><input type="radio" value="6 month" name="abc">6 month </td> 
+        <td><input type="radio" value="3 month" name="abc">3 month</td>
+    </tr>
+    <tr>
+       <td><label> Prefered Timing</label></td>
+       <td><input type="time"></td>
+       <td><input type="submit" value="submit"></td>
+       <td><input type="reset" value="reset"></td>
+    </tr>
+    </table>
+    </div>
 </body>
 </html>
